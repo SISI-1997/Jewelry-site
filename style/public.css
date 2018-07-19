@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0; list-style:none; border:0;}
+body{ margin:0; font-size:12px; color:#000; font-family:"宋体";}
+/*header*/
+#headerr{ width:1260px; height:662px; margin:0 auto; position: relative;}
+#headerr .top{ width:100%; height:13px; background:#7fcec9; position:fixed; left:0; top:0; z-index: 99;}
+#headerr .img{ padding-top:20px; text-align:center;}
+#headerr .nav{ width:820px; height:30px; padding:24px 0 0 291px;}
+#headerr .nav li{ float:left; margin-right:95px;}
+#headerr .nav li a{  display:block; text-decoration:none; color:#000;}
+#headerr .nav li .active{color: #288088;}
+#headerr .nav li a:hover{ color:#288088;}
+
+/*footer*/
+#footer{ width:100%; height:284px; margin:0 auto;}
+#footer .up{ width:100%; height:250px; background:#538281; color:#FFF;}
+#footer .up .center{ width:1062px; height:230px; margin:0 auto;}
+#footer .up .center .list{ width:173px; height:176px; padding-top:40px; line-height:24px; float:left;}
+#footer .up .center .ml270{ margin-left:150px;}
+#footer .up .center span{ font-size:14px; line-height:36px;}
+#footer .down{ width:100%; height:35px; background:#355c5b; text-align:center; line-height:35px; color:#FFF;}
+
+/*lunbo*/
+#headerr #bannern{ position: relative;}
+#headerr #lunbo{ width: 1119px; height: 20px; position: absolute; left: 41%; top: 90%;}
+#headerr #lunbo li{ width: 15px; height: 15px; border-radius: 50%; background:lightsteelblue; float: left; margin-left: 10px;}
+#headerr #lunbo .bg{background: #288088;}
+
+
+/*无缝滚动*/
+#open{position: relative; overflow: hidden;}
+#open ul{ width: 800px; height: 316px; position: absolute; left: 0; top: 0; width:auto;  cursor:pointer;}
+#open ul li{ float: left;}
+#open ul img{ width: 300px; height: 300px;}
+#scrollLeft,#scrollRight{ width:20px; height:20px; line-height:20px; text-align:center; font-size:16px; background-color:#CCC;
+    position:absolute; top:40%; opacity:0.3; cursor:pointer;}
+#scrollLeft{ left:5px;}
+#scrollRight{ right:5px;}
+
+#open1{position: relative; overflow: hidden; width: 1119px; height: 316px;}
+#open1 ul{ position: absolute; left: 0; top: 0; width:auto;  cursor:pointer; margin-left: 7px;}
+#open1 ul li{ float: left; margin-right: 5px;}
+#open1 ul img{ width: 216px; height: 250px;}
+#scroll{ position: absolute; top: 90%; right: 20px; background: #7fcec9; width: 100px; height: 100px; font-size: 16px;
+    line-height: 32px; text-align: center; box-shadow: #28857e 5px 5px 10px 5px;}
+#scroll:hover{ color: white;}
+
+
